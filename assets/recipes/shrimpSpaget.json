@@ -1,0 +1,249 @@
+{
+	"@context": "https://schema.org",
+	"@graph": [
+		{
+			"@type": "Organization",
+			"@id": "https://smackofflavor.com/#organization",
+			"name": "Smack of Flavor",
+			"url": "https://smackofflavor.com/",
+			"sameAs": [],
+			"logo": {
+				"@type": "ImageObject",
+				"@id": "https://smackofflavor.com/#logo",
+				"inLanguage": "en-US",
+				"url": "https://smackofflavor.com/wp-content/uploads/2021/09/1000x1000Logo.png",
+				"contentUrl": "https://smackofflavor.com/wp-content/uploads/2021/09/1000x1000Logo.png",
+				"width": 1000,
+				"height": 1000,
+				"caption": "Smack of Flavor"
+			},
+			"image": { "@id": "https://smackofflavor.com/#logo" }
+		},
+		{
+			"@type": "WebSite",
+			"@id": "https://smackofflavor.com/#website",
+			"url": "https://smackofflavor.com/",
+			"name": "Smack Of Flavor",
+			"description": "Recipes without extra fluff but with plenty of cheese",
+			"publisher": { "@id": "https://smackofflavor.com/#organization" },
+			"potentialAction": [
+				{
+					"@type": "SearchAction",
+					"target": {
+						"@type": "EntryPoint",
+						"urlTemplate": "https://smackofflavor.com/?s={search_term_string}"
+					},
+					"query-input": "required name=search_term_string"
+				}
+			],
+			"inLanguage": "en-US"
+		},
+		{
+			"@type": "ImageObject",
+			"@id": "https://smackofflavor.com/lemon-pesto-pasta-with-shrimp/#primaryimage",
+			"inLanguage": "en-US",
+			"url": "https://smackofflavor.com/wp-content/uploads/2020/08/Lemon-Pesto-Pasta-with-Shrimp-1.jpg",
+			"contentUrl": "https://smackofflavor.com/wp-content/uploads/2020/08/Lemon-Pesto-Pasta-with-Shrimp-1.jpg",
+			"width": 1000,
+			"height": 667,
+			"caption": "Close up of lemon pesto and shrimp pasta"
+		},
+		{
+			"@type": "WebPage",
+			"@id": "https://smackofflavor.com/lemon-pesto-pasta-with-shrimp/#webpage",
+			"url": "https://smackofflavor.com/lemon-pesto-pasta-with-shrimp/",
+			"name": "Lemon Pesto Pasta with Shrimp - Smack Of Flavor",
+			"isPartOf": { "@id": "https://smackofflavor.com/#website" },
+			"primaryImageOfPage": {
+				"@id": "https://smackofflavor.com/lemon-pesto-pasta-with-shrimp/#primaryimage"
+			},
+			"datePublished": "2020-08-01T19:33:07+00:00",
+			"dateModified": "2020-08-01T19:33:14+00:00",
+			"description": "Lemon Pesto Pasta with Shrimp is a quick, easy weeknight dinner seafood recipe, perfect for two people. A stove top pasta dish done in less than 30 minutes and loaded with fresh vegetables and pesto.",
+			"breadcrumb": {
+				"@id": "https://smackofflavor.com/lemon-pesto-pasta-with-shrimp/#breadcrumb"
+			},
+			"inLanguage": "en-US",
+			"potentialAction": [
+				{
+					"@type": "ReadAction",
+					"target": [
+						"https://smackofflavor.com/lemon-pesto-pasta-with-shrimp/"
+					]
+				}
+			]
+		},
+		{
+			"@type": "BreadcrumbList",
+			"@id": "https://smackofflavor.com/lemon-pesto-pasta-with-shrimp/#breadcrumb",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"name": "Home",
+					"item": "https://smackofflavor.com/"
+				},
+				{
+					"@type": "ListItem",
+					"position": 2,
+					"name": "By Course",
+					"item": "https://smackofflavor.com/category/by-course/"
+				},
+				{
+					"@type": "ListItem",
+					"position": 3,
+					"name": "Dinner",
+					"item": "https://smackofflavor.com/category/by-course/dinner/"
+				},
+				{
+					"@type": "ListItem",
+					"position": 4,
+					"name": "Lemon Pesto Pasta with Shrimp"
+				}
+			]
+		},
+		{
+			"@type": "Article",
+			"@id": "https://smackofflavor.com/lemon-pesto-pasta-with-shrimp/#article",
+			"isPartOf": {
+				"@id": "https://smackofflavor.com/lemon-pesto-pasta-with-shrimp/#webpage"
+			},
+			"author": {
+				"@id": "https://smackofflavor.com/#/schema/person/38af8c6bfb900a376b41ac9adeb09773"
+			},
+			"headline": "Lemon Pesto Pasta with Shrimp",
+			"datePublished": "2020-08-01T19:33:07+00:00",
+			"dateModified": "2020-08-01T19:33:14+00:00",
+			"wordCount": 1555,
+			"commentCount": 0,
+			"publisher": { "@id": "https://smackofflavor.com/#organization" },
+			"image": {
+				"@id": "https://smackofflavor.com/lemon-pesto-pasta-with-shrimp/#primaryimage"
+			},
+			"thumbnailUrl": "https://smackofflavor.com/wp-content/uploads/2020/08/Lemon-Pesto-Pasta-with-Shrimp-1.jpg",
+			"articleSection": [
+				"30 Minutes Or Less",
+				"Dinner",
+				"I Need Dinner Tonight",
+				"Stove Top"
+			],
+			"inLanguage": "en-US",
+			"potentialAction": [
+				{
+					"@type": "CommentAction",
+					"name": "Comment",
+					"target": [
+						"https://smackofflavor.com/lemon-pesto-pasta-with-shrimp/#respond"
+					]
+				}
+			]
+		},
+		{
+			"@type": "Person",
+			"@id": "https://smackofflavor.com/#/schema/person/38af8c6bfb900a376b41ac9adeb09773",
+			"name": "Samantha",
+			"sameAs": ["https://www.smackofflavor.com"]
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"name": "Lemon Pesto Pasta with Shrimp",
+			"author": { "@type": "Person", "name": "Samantha" },
+			"description": "Lemon Pesto Pasta with Shrimp is a quick, easy weeknight dinner seafood recipe, perfect for two people. A stove top pasta dish done in less than 30 minutes and loaded with fresh vegetables and pesto.",
+			"datePublished": "2020-08-01T15:33:07+00:00",
+			"image": [
+				"https://smackofflavor.com/wp-content/uploads/2020/08/Lemon-Pesto-Pasta-with-Shrimp-17.jpg",
+				"https://smackofflavor.com/wp-content/uploads/2020/08/Lemon-Pesto-Pasta-with-Shrimp-17-500x500.jpg",
+				"https://smackofflavor.com/wp-content/uploads/2020/08/Lemon-Pesto-Pasta-with-Shrimp-17-500x375.jpg",
+				"https://smackofflavor.com/wp-content/uploads/2020/08/Lemon-Pesto-Pasta-with-Shrimp-17-480x270.jpg"
+			],
+			"prepTime": "PT10M",
+			"cookTime": "PT15M",
+			"totalTime": "PT25M",
+			"recipeIngredient": [
+				"\u00bd pound raw shrimp (peeled, de-veined, defrosted)",
+				"6-8 oz dried rotini",
+				"Kosher salt",
+				"\u00bd pound fresh asparagus (trimmed and cut into 2-3 pieces)",
+				"3-4 tablespoons olive oil (divided)",
+				"3 oz fresh spinach",
+				"\u00be cup pesto",
+				"Juice from \u00bd lemon",
+				"Parmigiano-reggiano to garnish"
+			],
+			"recipeInstructions": [
+				{
+					"@type": "HowToStep",
+					"text": "Defrost raw frozen shrimp in a bowl of cold water. If necessary, de-vein and peel shrimp then pat dry, set aside.",
+					"name": "Defrost raw frozen shrimp in a bowl of cold water. If necessary, de-vein and peel shrimp then pat dry, set aside.",
+					"url": "https://smackofflavor.com/lemon-pesto-pasta-with-shrimp/#wprm-recipe-4930-step-0-0"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "In a medium to large pot begin boiling salted pasta water. Also, preheat a dutch oven over medium heat.",
+					"name": "In a medium to large pot begin boiling salted pasta water. Also, preheat a dutch oven over medium heat.",
+					"url": "https://smackofflavor.com/lemon-pesto-pasta-with-shrimp/#wprm-recipe-4930-step-0-1"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "While waiting for the water to begin boiling, trim the ends of asparagus and cut each spear into 2-3 pieces.",
+					"name": "While waiting for the water to begin boiling, trim the ends of asparagus and cut each spear into 2-3 pieces.",
+					"url": "https://smackofflavor.com/lemon-pesto-pasta-with-shrimp/#wprm-recipe-4930-step-0-2"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Once the water begins boiling, add the pasta and cook according to package inspections. Stir immediately to prevent sticking and then stir occasionally while cooking.",
+					"name": "Once the water begins boiling, add the pasta and cook according to package inspections. Stir immediately to prevent sticking and then stir occasionally while cooking.",
+					"url": "https://smackofflavor.com/lemon-pesto-pasta-with-shrimp/#wprm-recipe-4930-step-0-3"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "After you start the pasta, add 2 tablespoons of olive oil to the preheated dutch oven and saute the asparagus. Season with salt to taste and cook for about 2 minutes until bright green but still not soft.",
+					"name": "After you start the pasta, add 2 tablespoons of olive oil to the preheated dutch oven and saute the asparagus. Season with salt to taste and cook for about 2 minutes until bright green but still not soft.",
+					"url": "https://smackofflavor.com/lemon-pesto-pasta-with-shrimp/#wprm-recipe-4930-step-0-4"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Remove asparagus and set aside.",
+					"name": "Remove asparagus and set aside.",
+					"url": "https://smackofflavor.com/lemon-pesto-pasta-with-shrimp/#wprm-recipe-4930-step-0-5"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "In the dutch oven, add the rest of the olive oil and add the shrimp and season with salt. Reduce heat to medium low and cook shrimp until pink on both sides (2-4 minutes total).",
+					"name": "In the dutch oven, add the rest of the olive oil and add the shrimp and season with salt. Reduce heat to medium low and cook shrimp until pink on both sides (2-4 minutes total).",
+					"url": "https://smackofflavor.com/lemon-pesto-pasta-with-shrimp/#wprm-recipe-4930-step-0-6"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Once the shrimp is cooked, add in the cooked asparagus and raw spinach. Toss together until spinach is wilted and turn off the heat.",
+					"name": "Once the shrimp is cooked, add in the cooked asparagus and raw spinach. Toss together until spinach is wilted and turn off the heat.",
+					"url": "https://smackofflavor.com/lemon-pesto-pasta-with-shrimp/#wprm-recipe-4930-step-0-7"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Next add pesto and juice from \u00bd of a lemon. Stir to combine.",
+					"name": "Next add pesto and juice from \u00bd of a lemon. Stir to combine.",
+					"url": "https://smackofflavor.com/lemon-pesto-pasta-with-shrimp/#wprm-recipe-4930-step-0-8"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Save \u00bd cup of pasta water and then drain pasta using a spider or colander. Add hot pasta directly to the dutch oven and stir well to combine. If necessary, add 2 tablespoons of pasta water to loosen the sauce. Season with salt to taste.",
+					"name": "Save \u00bd cup of pasta water and then drain pasta using a spider or colander. Add hot pasta directly to the dutch oven and stir well to combine. If necessary, add 2 tablespoons of pasta water to loosen the sauce. Season with salt to taste.",
+					"url": "https://smackofflavor.com/lemon-pesto-pasta-with-shrimp/#wprm-recipe-4930-step-0-9"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Portion out pasta and then garnish with freshly grated Parmigiano-Reggiano if desired.",
+					"name": "Portion out pasta and then garnish with freshly grated Parmigiano-Reggiano if desired.",
+					"url": "https://smackofflavor.com/lemon-pesto-pasta-with-shrimp/#wprm-recipe-4930-step-0-10"
+				}
+			],
+			"@id": "https://smackofflavor.com/lemon-pesto-pasta-with-shrimp/#recipe",
+			"isPartOf": {
+				"@id": "https://smackofflavor.com/lemon-pesto-pasta-with-shrimp/#article"
+			},
+			"mainEntityOfPage": "https://smackofflavor.com/lemon-pesto-pasta-with-shrimp/#webpage"
+		}
+	]
+}
