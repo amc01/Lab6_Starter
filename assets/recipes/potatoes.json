@@ -1,0 +1,352 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "@id": "https://joyfoodsunshine.com/#organization",
+            "name": "JoyFoodSunshine",
+            "url": "https://joyfoodsunshine.com/",
+            "sameAs": [
+                "https://www.facebook.com/joyfoodsunshine/",
+                "https://www.instagram.com/joyfoodsunshine/",
+                "https://www.pinterest.com/joyfoodsunshine/",
+                "https://twitter.com/joyfoodsunshine"
+            ],
+            "logo": {
+                "@type": "ImageObject",
+                "@id": "https://joyfoodsunshine.com/#logo",
+                "inLanguage": "en-US",
+                "url": "https://joyfoodsunshine.com/wp-content/uploads/2017/01/NewLogo.png",
+                "contentUrl": "https://joyfoodsunshine.com/wp-content/uploads/2017/01/NewLogo.png",
+                "width": 1958,
+                "height": 733,
+                "caption": "JoyFoodSunshine"
+            },
+            "image": {
+                "@id": "https://joyfoodsunshine.com/#logo"
+            }
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://joyfoodsunshine.com/#website",
+            "url": "https://joyfoodsunshine.com/",
+            "name": "JoyFoodSunshine",
+            "description": "Recipes for real life.",
+            "publisher": {
+                "@id": "https://joyfoodsunshine.com/#organization"
+            },
+            "potentialAction": [
+                {
+                    "@type": "SearchAction",
+                    "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": "https://joyfoodsunshine.com/?s={search_term_string}"
+                    },
+                    "query-input": "required name=search_term_string"
+                }
+            ],
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": "ImageObject",
+            "@id": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#primaryimage",
+            "inLanguage": "en-US",
+            "url": "https://joyfoodsunshine.com/wp-content/uploads/2017/11/maple-cinnamon-roasted-sweet-potatoes-recipe-5.jpg",
+            "contentUrl": "https://joyfoodsunshine.com/wp-content/uploads/2017/11/maple-cinnamon-roasted-sweet-potatoes-recipe-5.jpg",
+            "width": 1200,
+            "height": 1200
+        },
+        {
+            "@type": [
+                "WebPage",
+                "FAQPage"
+            ],
+            "@id": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#webpage",
+            "url": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/",
+            "name": "Cinnamon Roasted Sweet Potatoes - JoyFoodSunshine",
+            "isPartOf": {
+                "@id": "https://joyfoodsunshine.com/#website"
+            },
+            "primaryImageOfPage": {
+                "@id": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#primaryimage"
+            },
+            "datePublished": "2017-11-06T11:00:02+00:00",
+            "dateModified": "2021-10-12T21:47:42+00:00",
+            "description": "This cinnamon roasted sweet potatoes recipe is an easy & healthy side dish made with 5 ingredients - perfect for Thanksgiving.",
+            "breadcrumb": {
+                "@id": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#breadcrumb"
+            },
+            "mainEntity": [
+                {
+                    "@id": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#faq-question-1634074552735"
+                },
+                {
+                    "@id": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#faq-question-1634074566657"
+                },
+                {
+                    "@id": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#faq-question-1634074626369"
+                }
+            ],
+            "inLanguage": "en-US",
+            "potentialAction": [
+                {
+                    "@type": "ReadAction",
+                    "target": [
+                        "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "BreadcrumbList",
+            "@id": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#breadcrumb",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://joyfoodsunshine.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Cinnamon Roasted Sweet Potatoes"
+                }
+            ]
+        },
+        {
+            "@type": "Article",
+            "@id": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#article",
+            "isPartOf": {
+                "@id": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#webpage"
+            },
+            "author": {
+                "@id": "https://joyfoodsunshine.com/#/schema/person/26aa1eec196fcfdeab13ab7a9999d220"
+            },
+            "headline": "Cinnamon Roasted Sweet Potatoes",
+            "datePublished": "2017-11-06T11:00:02+00:00",
+            "dateModified": "2021-10-12T21:47:42+00:00",
+            "wordCount": 1162,
+            "commentCount": 7,
+            "publisher": {
+                "@id": "https://joyfoodsunshine.com/#organization"
+            },
+            "image": {
+                "@id": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#primaryimage"
+            },
+            "thumbnailUrl": "https://joyfoodsunshine.com/wp-content/uploads/2017/11/maple-cinnamon-roasted-sweet-potatoes-recipe-5.jpg",
+            "keywords": [
+                "side dish",
+                "sweet potatoes"
+            ],
+            "articleSection": [
+                "Fall Recipes",
+                "Gluten-Free",
+                "Homemade Holidays",
+                "Paleo Recipes",
+                "Recipe Videos",
+                "Recipes",
+                "Side Dish",
+                "Thanksgiving",
+                "Vegan"
+            ],
+            "inLanguage": "en-US",
+            "potentialAction": [
+                {
+                    "@type": "CommentAction",
+                    "name": "Comment",
+                    "target": [
+                        "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#respond"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "Person",
+            "@id": "https://joyfoodsunshine.com/#/schema/person/26aa1eec196fcfdeab13ab7a9999d220",
+            "name": "Laura",
+            "sameAs": [
+                "https://joyfoodsunshine.com/about-laura/"
+            ]
+        },
+        {
+            "@type": "Question",
+            "@id": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#faq-question-1634074552735",
+            "position": 1,
+            "url": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#faq-question-1634074552735",
+            "name": "How do you make roasted sweet potatoes crispy?",
+            "answerCount": 1,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "There are a few key elements in making baked sweet potato cubes crispy:<br/><strong>oast with only oil and salt first.\u00a0</strong>Like I mentioned earlier, it's important to roast sweet potatoes with only oil and salt before adding any other ingredients. You don't want to compromise bake time by introducing a wet ingredient (like in these <a href=\"https://joyfoodsunshine.com/peanut-butter-crusted-sweet-potato-fries/\">peanut butter sweet potato fries</a>) before it's time.<br/><strong>Flip and stir during baking.\u00a0</strong>In order to ensure that all sides of your roasted sweet potatoes are browned, it's crucial that you stir/flip them during roasting. Sometimes I even use tongs to individually flip sweet potato cubes to ensure I didn't miss any!<br/><strong>Cut the sweet potatoes in small, thin pieces.</strong> The more surface area of the baked sweet potato cubes that are exposed to the surface of the baking sheet, the higher the ratio of browned, crispy outside to soft inside will be. Plus, smaller pieces decreases baking time!",
+                "inLanguage": "en-US"
+            },
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": "Question",
+            "@id": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#faq-question-1634074566657",
+            "position": 2,
+            "url": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#faq-question-1634074566657",
+            "name": "Do you peel sweet potatoes before roasting?",
+            "answerCount": 1,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can peel them, but you do not have to (I prefer not to). The skin contains many nutrients and adds a texture and flavor to roasted sweet potatoes! When I make these for babies/toddlers I do peel them so they can chew them without choking.",
+                "inLanguage": "en-US"
+            },
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": "Question",
+            "@id": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#faq-question-1634074626369",
+            "position": 3,
+            "url": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#faq-question-1634074626369",
+            "name": "Are roasted sweet potatoes healthy?",
+            "answerCount": 1,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Here are some health benefits of sweet potatoes:<br/><strong>High in nutrients</strong> such as Vitamins A, C &amp; B, manganese and potassium - which helps regulate blood pressure/<br/>Sweet potatoes are <strong>high in antioxidants</strong> and have amazing <strong>anti-inflammatory</strong> properties.<br/>They are <strong>high in fiber</strong>, which means they do not cause blood sugar spikes, like regular potatoes do.<br/>Help boost\u00a0<strong>fertility.\u00a0</strong>I ate so many sweet potatoes and yams when I was trying to conceive to help my body be as healthy as it could be.",
+                "inLanguage": "en-US"
+            },
+            "inLanguage": "en-US"
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Recipe",
+            "name": "Cinnamon Roasted Sweet Potatoes",
+            "author": {
+                "@type": "Person",
+                "name": "Laura"
+            },
+            "description": "This cinnamon roasted sweet potatoes recipe is an easy &amp; healthy side dish made with 5 ingredients.",
+            "datePublished": "2017-11-06T04:00:02+00:00",
+            "image": [
+                "https://joyfoodsunshine.com/wp-content/uploads/2017/11/maple-cinnamon-roasted-sweet-potatoes-recipe-6.jpg",
+                "https://joyfoodsunshine.com/wp-content/uploads/2017/11/maple-cinnamon-roasted-sweet-potatoes-recipe-6-500x500.jpg",
+                "https://joyfoodsunshine.com/wp-content/uploads/2017/11/maple-cinnamon-roasted-sweet-potatoes-recipe-6-500x375.jpg",
+                "https://joyfoodsunshine.com/wp-content/uploads/2017/11/maple-cinnamon-roasted-sweet-potatoes-recipe-6-480x270.jpg"
+            ],
+            "video": {
+                "name": "Cinnamon Roasted Sweet Potatoes",
+                "description": "This cinnamon roasted sweet potatoes recipe is an easy & healthy side dish made with 5 ingredients.",
+                "thumbnailUrl": "https://mediavine-res.cloudinary.com/image/upload/s--BgWEREue--/c_limit,f_auto,fl_lossy,h_1080,q_auto,w_1920/v1634074494/lvjp7wjdbafrpoxh5y53.jpg",
+                "contentUrl": "https://embed.mediavine.com/videos/npctge8klcuglbounrui",
+                "uploadDate": "2017-11-12T23:20:20+00:00",
+                "duration": "PT51S",
+                "@type": "VideoObject"
+            },
+            "recipeYield": [
+                "8",
+                "8 servings"
+            ],
+            "prepTime": "PT10M",
+            "cookTime": "PT40M",
+            "totalTime": "PT50M",
+            "recipeIngredient": [
+                "2 lbs sweet potatoes, cut into 1\u201d cubes ((6 cups))",
+                "3 TBS salted butter ((melted &amp; divided))",
+                "1 tsp sea salt",
+                "2 TBS pure maple syrup",
+                "\u00bd tsp ground cinnamon"
+            ],
+            "recipeInstructions": [
+                {
+                    "@type": "HowToStep",
+                    "text": "Preheat oven to 425 degrees F.",
+                    "name": "Preheat oven to 425 degrees F.",
+                    "url": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#wprm-recipe-8690-step-0-0"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Grease a large baking pan, set aside.",
+                    "name": "Grease a large baking pan, set aside.",
+                    "url": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#wprm-recipe-8690-step-0-1"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "In a large bowl, toss cubed sweet potatoes with 2 TBS of melted butter. Stir until coated.",
+                    "name": "In a large bowl, toss cubed sweet potatoes with 2 TBS of melted butter. Stir until coated.",
+                    "url": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#wprm-recipe-8690-step-0-2"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Add sea salt and stir until evenly distributed.",
+                    "name": "Add sea salt and stir until evenly distributed.",
+                    "url": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#wprm-recipe-8690-step-0-3"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Bake in the preheated oven for 15 min.",
+                    "name": "Bake in the preheated oven for 15 min.",
+                    "url": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#wprm-recipe-8690-step-0-4"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Stir and bake 10 more minutes or until some of the sweet potatoes are just starting to brown.",
+                    "name": "Stir and bake 10 more minutes or until some of the sweet potatoes are just starting to brown.",
+                    "url": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#wprm-recipe-8690-step-0-5"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Remove from oven and drizzle with remaining 1 TBS butter and 2 TBS maple syrup. Stir until the sweet potatoes are evenly coated.",
+                    "name": "Remove from oven and drizzle with remaining 1 TBS butter and 2 TBS maple syrup. Stir until the sweet potatoes are evenly coated.",
+                    "url": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#wprm-recipe-8690-step-0-6"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Sprinkle with cinnamon and stir until it\u2019s evenly distributed.",
+                    "name": "Sprinkle with cinnamon and stir until it\u2019s evenly distributed.",
+                    "url": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#wprm-recipe-8690-step-0-7"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Return to oven and bake 10-20 minutes longer or until potatoes are browned, stirring halfway",
+                    "name": "Return to oven and bake 10-20 minutes longer or until potatoes are browned, stirring halfway",
+                    "url": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#wprm-recipe-8690-step-0-8"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Serve immediately!",
+                    "name": "Serve immediately!",
+                    "url": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#wprm-recipe-8690-step-0-9"
+                }
+            ],
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5",
+                "ratingCount": "2"
+            },
+            "recipeCategory": [
+                "Side Dish"
+            ],
+            "recipeCuisine": [
+                "American"
+            ],
+            "suitableForDiet": [
+                "https://schema.org/GlutenFreeDiet",
+                "https://schema.org/VeganDiet",
+                "https://schema.org/VegetarianDiet"
+            ],
+            "keywords": "cinnamon roasted sweet potatoes, crispy sweet potatoes, maple sweet potatoes, roasted sweet potato cubes, roasted sweet potatoes, roasted sweet potatoes recipe",
+            "nutrition": {
+                "@type": "NutritionInformation",
+                "calories": "166.4 kcal",
+                "carbohydrateContent": "27.6 g",
+                "proteinContent": "1.7 g",
+                "fatContent": "5.6 g",
+                "saturatedFatContent": "4.9 g",
+                "sodiumContent": "2783 mg",
+                "fiberContent": "3.1 g",
+                "sugarContent": "7.5 g",
+                "servingSize": "0.5 cup",
+                "unsaturatedFatContent": "0.1 g"
+            },
+            "@id": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#recipe",
+            "isPartOf": {
+                "@id": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#article"
+            },
+            "mainEntityOfPage": "https://joyfoodsunshine.com/maple-cinnamon-roasted-sweet-potatoes/#webpage"
+        }
+    ]
+}

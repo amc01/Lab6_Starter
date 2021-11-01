@@ -1,0 +1,369 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "@id": "https://joyfoodsunshine.com/#organization",
+            "name": "JoyFoodSunshine",
+            "url": "https://joyfoodsunshine.com/",
+            "sameAs": [
+                "https://www.facebook.com/joyfoodsunshine/",
+                "https://www.instagram.com/joyfoodsunshine/",
+                "https://www.pinterest.com/joyfoodsunshine/",
+                "https://twitter.com/joyfoodsunshine"
+            ],
+            "logo": {
+                "@type": "ImageObject",
+                "@id": "https://joyfoodsunshine.com/#logo",
+                "inLanguage": "en-US",
+                "url": "https://joyfoodsunshine.com/wp-content/uploads/2017/01/NewLogo.png",
+                "contentUrl": "https://joyfoodsunshine.com/wp-content/uploads/2017/01/NewLogo.png",
+                "width": 1958,
+                "height": 733,
+                "caption": "JoyFoodSunshine"
+            },
+            "image": {
+                "@id": "https://joyfoodsunshine.com/#logo"
+            }
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://joyfoodsunshine.com/#website",
+            "url": "https://joyfoodsunshine.com/",
+            "name": "JoyFoodSunshine",
+            "description": "Recipes for real life.",
+            "publisher": {
+                "@id": "https://joyfoodsunshine.com/#organization"
+            },
+            "potentialAction": [
+                {
+                    "@type": "SearchAction",
+                    "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": "https://joyfoodsunshine.com/?s={search_term_string}"
+                    },
+                    "query-input": "required name=search_term_string"
+                }
+            ],
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": "ImageObject",
+            "@id": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#primaryimage",
+            "inLanguage": "en-US",
+            "url": "https://joyfoodsunshine.com/wp-content/uploads/2021/05/peanut-butter-oatmeal-cookies-recipe-7.jpg",
+            "contentUrl": "https://joyfoodsunshine.com/wp-content/uploads/2021/05/peanut-butter-oatmeal-cookies-recipe-7.jpg",
+            "width": 1200,
+            "height": 1200,
+            "caption": "Peanut Butter Oatmeal Cookies"
+        },
+        {
+            "@type": [
+                "WebPage",
+                "FAQPage"
+            ],
+            "@id": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#webpage",
+            "url": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/",
+            "name": "Peanut Butter Oatmeal Cookies - JoyFoodSunshine",
+            "isPartOf": {
+                "@id": "https://joyfoodsunshine.com/#website"
+            },
+            "primaryImageOfPage": {
+                "@id": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#primaryimage"
+            },
+            "datePublished": "2021-05-14T08:00:00+00:00",
+            "dateModified": "2021-09-17T22:22:53+00:00",
+            "description": "Peanut butter oatmeal cookies are crispy on the outside and soft and chewy on the inside, plus they\u2019re loaded with peanut butter!",
+            "breadcrumb": {
+                "@id": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#breadcrumb"
+            },
+            "mainEntity": [
+                {
+                    "@id": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#faq-question-1620163107048"
+                },
+                {
+                    "@id": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#faq-question-1620163149597"
+                },
+                {
+                    "@id": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#faq-question-1620163454414"
+                }
+            ],
+            "inLanguage": "en-US",
+            "potentialAction": [
+                {
+                    "@type": "ReadAction",
+                    "target": [
+                        "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "BreadcrumbList",
+            "@id": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#breadcrumb",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://joyfoodsunshine.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Peanut Butter Oatmeal Cookies"
+                }
+            ]
+        },
+        {
+            "@type": "Article",
+            "@id": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#article",
+            "isPartOf": {
+                "@id": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#webpage"
+            },
+            "author": {
+                "@id": "https://joyfoodsunshine.com/#/schema/person/26aa1eec196fcfdeab13ab7a9999d220"
+            },
+            "headline": "Peanut Butter Oatmeal Cookies",
+            "datePublished": "2021-05-14T08:00:00+00:00",
+            "dateModified": "2021-09-17T22:22:53+00:00",
+            "wordCount": 1665,
+            "commentCount": 2,
+            "publisher": {
+                "@id": "https://joyfoodsunshine.com/#organization"
+            },
+            "image": {
+                "@id": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#primaryimage"
+            },
+            "thumbnailUrl": "https://joyfoodsunshine.com/wp-content/uploads/2021/05/peanut-butter-oatmeal-cookies-recipe-7.jpg",
+            "keywords": [
+                "chocolate",
+                "cookies",
+                "dessert",
+                "oatmeal",
+                "peanut butter"
+            ],
+            "articleSection": [
+                "Chocolate",
+                "Cookies",
+                "Dessert",
+                "Peanut Butter Recipes",
+                "Recipe Videos",
+                "Recipes"
+            ],
+            "inLanguage": "en-US",
+            "potentialAction": [
+                {
+                    "@type": "CommentAction",
+                    "name": "Comment",
+                    "target": [
+                        "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#respond"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "Person",
+            "@id": "https://joyfoodsunshine.com/#/schema/person/26aa1eec196fcfdeab13ab7a9999d220",
+            "name": "Laura",
+            "sameAs": [
+                "https://joyfoodsunshine.com/about-laura/"
+            ]
+        },
+        {
+            "@type": "Question",
+            "@id": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#faq-question-1620163107048",
+            "position": 1,
+            "url": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#faq-question-1620163107048",
+            "name": "Can you use natural peanut butter in cookies?",
+            "answerCount": 1,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, but be aware that the cookies may spread more and be more on the crispy side than the soft side. Also, many natural peanut butters are unsalted, so you may need to increase the amount of salt int he recipe by 1/4 tsp.",
+                "inLanguage": "en-US"
+            },
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": "Question",
+            "@id": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#faq-question-1620163149597",
+            "position": 2,
+            "url": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#faq-question-1620163149597",
+            "name": "How do you keep peanut butter cookies from crumbling?",
+            "answerCount": 1,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "First, make sure you do not over-bake or over-mix them. Second, be sure to store them in an airtight container. ",
+                "inLanguage": "en-US"
+            },
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": "Question",
+            "@id": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#faq-question-1620163454414",
+            "position": 3,
+            "url": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#faq-question-1620163454414",
+            "name": "Why are my cookies dry?",
+            "answerCount": 1,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The most common reason for dry cookies is over-baking. Check your oven's temperature and bake for a shorter amount of time. ",
+                "inLanguage": "en-US"
+            },
+            "inLanguage": "en-US"
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Recipe",
+            "name": "Peanut Butter Oatmeal Cookies",
+            "author": {
+                "@type": "Person",
+                "name": "Laura"
+            },
+            "description": "These peanut butter oatmeal cookies are crispy on the outside and soft and chewy on the inside, plus they\u2019re loaded with peanut butter! Add your favorite mix-ins to make them your own (chocolate chips, mini peanut butter cups, etc.)!",
+            "datePublished": "2021-05-14T02:00:00+00:00",
+            "image": [
+                "https://joyfoodsunshine.com/wp-content/uploads/2021/05/peanut-butter-oatmeal-cookies-recipe-11.jpg",
+                "https://joyfoodsunshine.com/wp-content/uploads/2021/05/peanut-butter-oatmeal-cookies-recipe-11-500x500.jpg",
+                "https://joyfoodsunshine.com/wp-content/uploads/2021/05/peanut-butter-oatmeal-cookies-recipe-11-500x375.jpg",
+                "https://joyfoodsunshine.com/wp-content/uploads/2021/05/peanut-butter-oatmeal-cookies-recipe-11-480x270.jpg"
+            ],
+            "video": {
+                "name": "Peanut Butter Oatmeal Cookies",
+                "description": "These peanut butter oatmeal cookies are crispy on the outside and soft and chewy on the inside, plus they\u2019re loaded with peanut butter! Add your favorite mix-ins to make them your own (chocolate chips, mini peanut butter cups, etc.)!",
+                "thumbnailUrl": "https://mediavine-res.cloudinary.com/image/upload/s---jeaBDFm--/c_limit,f_auto,fl_lossy,h_1080,q_auto,w_1920/v1616106710/f49zudevloxag4vf8nmi.jpg",
+                "contentUrl": "https://embed.mediavine.com/videos/g0iizowcec99wz3f39yg",
+                "uploadDate": "2021-02-13T14:57:54+00:00",
+                "duration": "PT92S",
+                "@type": "VideoObject"
+            },
+            "recipeYield": [
+                "30",
+                "30 Cookies"
+            ],
+            "prepTime": "PT10M",
+            "cookTime": "PT10M",
+            "totalTime": "PT90M",
+            "recipeIngredient": [
+                "\u00bd cup salted butter (softened)",
+                "1 \u00bc cup creamy peanut butter",
+                "\u00bd cup granulated sugar",
+                "\u00bd cup brown sugar (packed)",
+                "1 tsp pure vanilla extract",
+                "2  eggs",
+                "\u00bd cup all-purpose flour",
+                "\u00bc tsp fine sea salt",
+                "1 cup old-fashioned oatmeal",
+                "\u00bd tsp baking soda",
+                "\u00bd tsp ground cinnamon",
+                "Optional: \u00bd cup mix-ins (chocolate chips, mini peanut butter cups, peanut butter M&amp;Ms, etc.)"
+            ],
+            "recipeInstructions": [
+                {
+                    "@type": "HowToStep",
+                    "text": "In a small bowl, combine flour, baking soda, sea salt and cinnamon. Set aside.",
+                    "name": "In a small bowl, combine flour, baking soda, sea salt and cinnamon. Set aside.",
+                    "url": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#wprm-recipe-28601-step-0-0"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "In the bowl of a standing mixer fitted with the paddle attachment, beat together butter, peanut butter, brown sugar and granulated sugar until light and fluffy.",
+                    "name": "In the bowl of a standing mixer fitted with the paddle attachment, beat together butter, peanut butter, brown sugar and granulated sugar until light and fluffy.",
+                    "url": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#wprm-recipe-28601-step-0-1"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Add vanilla and egg and beat until combined.",
+                    "name": "Add vanilla and egg and beat until combined.",
+                    "url": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#wprm-recipe-28601-step-0-2"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Add the dry ingredient mixture and beat until combined.",
+                    "name": "Add the dry ingredient mixture and beat until combined.",
+                    "url": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#wprm-recipe-28601-step-0-3"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Add oatmeal and beat until evenly distributed.",
+                    "name": "Add oatmeal and beat until evenly distributed.",
+                    "url": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#wprm-recipe-28601-step-0-4"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Add chocolate chips and stir until evenly distributed.",
+                    "name": "Add chocolate chips and stir until evenly distributed.",
+                    "url": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#wprm-recipe-28601-step-0-5"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Cover dough with plastic wrap, or transfer to an airtight container with a lid and chill for at least 1 hour.",
+                    "name": "Cover dough with plastic wrap, or transfer to an airtight container with a lid and chill for at least 1 hour.",
+                    "url": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#wprm-recipe-28601-step-0-6"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "After 1 hour, preheat oven to 350 degrees F. Line a large baking sheet with parchment paper.",
+                    "name": "After 1 hour, preheat oven to 350 degrees F. Line a large baking sheet with parchment paper.",
+                    "url": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#wprm-recipe-28601-step-0-7"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Use a small cookie scoop to portion dough into 1 \u00bd TBS portions, roll into balls and place evenly spaced on the prepared baking sheet. Gently press the tops down slightly. (NOTE: Dough will be slightly tacky, but should still roll easily into balls).",
+                    "name": "Use a small cookie scoop to portion dough into 1 \u00bd TBS portions, roll into balls and place evenly spaced on the prepared baking sheet. Gently press the tops down slightly. (NOTE: Dough will be slightly tacky, but should still roll easily into balls).",
+                    "url": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#wprm-recipe-28601-step-0-8"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Bake in the preheated oven for 10-11 minutes, or until cookies are just barely set.",
+                    "name": "Bake in the preheated oven for 10-11 minutes, or until cookies are just barely set.",
+                    "url": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#wprm-recipe-28601-step-0-9"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Let cool on the baking pan for 5-10 minutes, then transfer to a wire cooling rack to cool completely.",
+                    "name": "Let cool on the baking pan for 5-10 minutes, then transfer to a wire cooling rack to cool completely.",
+                    "url": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#wprm-recipe-28601-step-0-10"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Store in an airtight container for 3-5 days.",
+                    "name": "Store in an airtight container for 3-5 days.",
+                    "url": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#wprm-recipe-28601-step-0-11"
+                }
+            ],
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5",
+                "ratingCount": "2"
+            },
+            "recipeCategory": [
+                "cookies",
+                "Dessert"
+            ],
+            "recipeCuisine": [
+                "American"
+            ],
+            "keywords": "oatmeal peanut butter cookies, Peanut Butter oat Cookies, Peanut Butter Oatmeal chocolate chip Cookies, Peanut Butter Oatmeal Cookies",
+            "nutrition": {
+                "@type": "NutritionInformation",
+                "servingSize": "1 cookie",
+                "calories": "135 kcal",
+                "carbohydrateContent": "12 g",
+                "proteinContent": "4 g",
+                "fatContent": "9 g",
+                "saturatedFatContent": "3 g",
+                "transFatContent": "1 g",
+                "cholesterolContent": "19 mg",
+                "sodiumContent": "100 mg",
+                "fiberContent": "1 g",
+                "sugarContent": "8 g"
+            },
+            "@id": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#recipe",
+            "isPartOf": {
+                "@id": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#article"
+            },
+            "mainEntityOfPage": "https://joyfoodsunshine.com/peanut-butter-oatmeal-cookies/#webpage"
+        }
+    ]
+}
