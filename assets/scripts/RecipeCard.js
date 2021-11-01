@@ -115,6 +115,7 @@ class RecipeCard extends HTMLElement {
 		ratingDiv.classList.add("rating");
 		const ratingSpan = document.createElement("span");
 		const aggregateRating = searchForKey(data, "aggregateRating");
+    console.log(aggregateRating);
 		ratingSpan.innerHTML = aggregateRating
 			? aggregateRating["ratingValue"]
 			: "No Reviews";
