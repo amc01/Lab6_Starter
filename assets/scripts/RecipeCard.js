@@ -124,7 +124,7 @@ class RecipeCard extends HTMLElement {
 		if (aggregateRating?.ratingValue) {
 			const ratingImg = document.createElement("img");
 			const roundedRating = Math.round(aggregateRating["ratingValue"]);
-			ratingImg.src = `/assets/images/icons/${roundedRating}-star.svg`;
+			ratingImg.src = `assets/images/icons/${roundedRating}-star.svg`;
 			ratingImg.alt = `${aggregateRating["ratingValue"]} stars`;
 			ratingDiv.appendChild(ratingImg);
 
