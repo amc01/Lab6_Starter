@@ -120,6 +120,7 @@ class RecipeCard extends HTMLElement {
 			: "No Reviews";
 		ratingDiv.appendChild(ratingSpan);
 
+    // checks to see if a rating exists
 		if (aggregateRating?.ratingValue) {
 			const ratingImg = document.createElement("img");
 			const roundedRating = Math.round(aggregateRating["ratingValue"]);
@@ -158,7 +159,6 @@ class RecipeCard extends HTMLElement {
 		// Make sure to attach your root element and styles to the shadow DOM you
 		// created in the constructor()
 
-		// Part 1 Expose - TODO
 		this.shadowRoot.append(styleElem, card);
 	}
 }

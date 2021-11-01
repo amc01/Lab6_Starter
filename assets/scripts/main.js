@@ -89,5 +89,4 @@ function bindShowMore() {
 	// that were fetched. You should fetch every recipe in the beginning, whether you
 	// display it or not, so you don't need to fetch them again. Simply access them
 	// in the recipeData object where you stored them/
-	// Part 2 Explore - TODO
 }
